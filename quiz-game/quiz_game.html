@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="quiz_game.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz Game</h1>
+  </header>
+<div class="content">
+  <h4>1- Quantas patas uma formiga possui?</h4>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz1('opcao_incorreta1')">
+    <label>8</label>
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz1('opcao_correta1')">
+    <label>6</label>
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz1('opcao_incorreta1')">
+    <label>4</label>
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz1('opcao_incorreta1')">
+    <label>10</label>
+  </div>
+  <p id="resp_quiz1"></p>
+  <img id="img1">
+</div>
+
+<div class="content">
+  <h4>2- Qual dessas aves não voa?</h4>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz2('opcao_incorreta2')">
+    <label>Galinha</label>  
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz2('opcao_correta2')">
+    <label>Pinguim</label>  <!--correto--> 
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz2('opcao_incorreta2')">
+    <label>Cegonha</label>   
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz2('opcao_incorreta2')">
+    <label>Pato</label>
+  </div>
+  <div>
+    <p id="resp_quiz2"></p>
+    <img id="img2">
+  </div>
+</div>
+
+<div class="content">
+  <h4>3- Um fazendeiro tinha 17 ovelhas. Todas menos 9 morreram.
+    Quantas ovelhas vivas restaram?</h4>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz3('opcao_incorreta3')">
+    <label>8 ovelhas</label>  
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz3('opcao_incorreta3')">
+    <label>10 ovelhas</label>
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz3('opcao_correta3')">
+    <label>9 ovelhas</label>  
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz3('opcao_incorreta3')">
+    <label>11 ovelhas</label>
+  </div>
+  <div>
+    <p id='resp_quiz3'></p>
+    <img id="img3">
+  </div>
+  </div>
+
+<div class="content">
+  <h4>4- Qual é o animal mais rápido do mundo?</h4>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz4('opcao_incorreta4')">
+    <label>Mosca</label>  
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz4('opcao_incorreta4')">
+    <label>Coiote</label>
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz4('opcao_incorreta4')">
+    <label>Tigre Siberiano</label>  
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz4('opcao_correta4')">
+    <label>Falcão–Peregrino</label>
+  </div>
+  <div>
+    <p id='resp_quiz4'></p>
+    <img id="img4">
+  </div>
+  </div>
+
+<div class="content">
+  <h4>5- Qual é o maior gato do mundo?</h4>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz5('opcao_correta5')">
+    <label>Maine-Coon</label>  
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz5('opcao_incorreta5')">
+    <label>Persa</label>
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz5('opcao_incorreta5')">
+    <label>Sphynx</label>  
+  </div>
+  <div>
+    <input name="inputOpcoes" type="radio" onclick="quiz5('opcao_incorreta5')">
+    <label>Ragdoll</label>
+  </div>
+  <div>
+    <p id='resp_quiz5'></p>
+    <img id="img5">
+  </div>
+  </div>
+     
+
+
+<script src="quiz_game.js"></script>
+</body>
+</html>

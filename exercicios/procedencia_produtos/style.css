@@ -1,0 +1,38 @@
+body{
+  background-color: azure;
+}
+
+header{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  background-color: purple;
+  border-width: 2px 4px 2px 4px;
+  padding: 4px;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  background-color: purple;
+  color: aliceblue;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+  cursor: pointer;
+}
+
+.flexColunas {
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  margin-bottom: 2px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+
+</head>
+<body>
+
+
+      <div class="container d-flex flex-column justify-content-center align-items-center mt-5 ">
+        <div class="loginBox shadow-sm p-3 mb-5  rounded">
+            <div style="color: white;">
+                <h1>
+                    Cadastre-se
+                </h1>
+            </div>
+            <div class="input-group mb-3 ">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" id="usuario" placeholder="Usuário">
+            </div>
+            <div>
+                <input type="password" class="form-control" id="senha" placeholder="Senha">
+
+            </div>
+            <div class="mx-auto row g-2 mt-2" >
+                <button type="submit" onclick="validarPreenchimentoCampos()">Fazer Cadastro</button>
+            </div>
+            <div>
+                <a style="color: white;" href="../login/index.html">Já possui uma conta?</a>
+            </div>
+        </div>
+    </div>
+
+
+      <script src="../js/script.js"></script>
+</body>
+</html>

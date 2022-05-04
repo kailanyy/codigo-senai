@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Procedência dos Produtos</title>
+  <link rel="stylesheet" href="procedencia_produtos.css">
+</head>
+<body>
+  <header>
+    <h1>
+      Procedência dos Produtos
+    </h1>
+  </header>
+  <div class="flexColunas">
+      <div style="margin-right: 15px;">
+        <h3>Código de Origem</h3>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+      </div>
+      <div>
+        <div>
+          <h3>Produtos</h3>
+          <input type="radio"
+            name="maracuja" id="maracuja"
+            onclick="procedenciaProduto('maracuja')">
+          <span>Maracujá</span>
+        </div>
+       <div>
+         <input type="radio"
+           id="kiwi"
+           onclick="procedenciaProduto('kiwi')">
+          <span>Kiwi</span>
+         </div>
+        <div>
+          <input type="radio"
+            id="morango"
+            onclick="procedenciaProduto('morango')">
+          <span>Morango</span>
+        </div>
+        <div>
+          <input type="radio"
+            id="pitaya"
+            onclick="procedenciaProduto('pitaya')">
+          <span>Pitaya</span>
+      </div>
+      <div>
+        <input type="radio"
+          id="banana"
+          onclick="procedenciaProduto('banana')">
+        <span>Banana</span>
+      </div>
+      <div>
+          <input type="radio"
+            id="uva"
+            onclick="procedenciaProduto('uva')">
+          <span>Uva</span>
+      </div>
+      <div>
+          <input type="radio"
+            id="jabuticaba"
+            onclick="procedenciaProduto('jabuticaba')">
+          <span>Jabuticaba</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer>
+      <p>Contato:</p>
+      <li>procedencia@contato.com</li>
+      <li>(48) 99123-3469</li>
+  </footer>
+
+  <script type="text/javascript" src="procedencia_produtos.js"></script>
+</body>
+</html>

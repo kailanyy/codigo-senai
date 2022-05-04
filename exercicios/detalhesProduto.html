@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 7</title>
+</head>
+<body>
+  <p>Selecione um Produto</p>
+  <select onchange="observaMudanca()" name="Produtos" id="produtos">
+    <option value="produto1">Mesa</option>
+    <option value="produto2">Cadeira</option>
+    <option value="produto3">Sofá</option>
+    <option value="produto4">Televisão</option>
+  </select>
+
+  <div>
+    <span>
+      <strong>
+        Produto Selecionado: 
+      </strong>
+    </span>
+    <span id="nomeProduto">...</span>
+  </div>
+  <div>
+    <span>
+      <strong>
+        Descrição: 
+      </strong>
+    </span>
+    <span id="descricao">...</span>
+  </div>
+  <div>
+    <span>
+      <strong>
+        Preço: 
+      </strong>
+    </span>
+    <span id="preco">...</span>
+  </div>
+  <div>
+    <span>
+      <strong>
+        Quantidade em estoque: 
+      </strong>
+    </span>
+    <span id="estoque">...</span>
+  </div>
+   
+  <script>
+    function observaMudanca(){      
+    let produtoSelecionado = document.getElementById("produtos").value;
+    console.log(produtoSelecionado);
+
+      if (produtoSelecionado == 'produto1') {
+        document.getElementById("nomeProduto").textContent = "Mesa"
+        document.getElementById("descricao").textContent = "Mesa azul grande"
+        document.getElementById("preco").textContent = "R$350"
+        document.getElementById("estoque").textContent = "12"
+      }
+
+      if (produtoSelecionado == 'produto2') {
+        document.getElementById("nomeProduto").textContent = "Cadeira"
+        document.getElementById("descricao").textContent = "Cadeira Super Confortável"
+        document.getElementById("preco").textContent = "R$150"
+        document.getElementById("estoque").textContent = "26"
+      }
+
+      if (produtoSelecionado == 'produto3') {
+        document.getElementById("nomeProduto").textContent = "Sofá"
+        document.getElementById("descricao").textContent = "Sofá tamanho médio"
+        document.getElementById("preco").textContent = "R$1000"
+        document.getElementById("estoque").textContent = "89"
+      }
+
+      if (produtoSelecionado == 'produto4') {
+        document.getElementById("nomeProduto").textContent = "Televisão"
+        document.getElementById("descricao").textContent = "Televisão de 55 polegadas"
+        document.getElementById("preco").textContent = "R$5500"
+        document.getElementById("estoque").textContent = "54"
+      }
+
+    }
+
+  </script>
+<style>
+  div {
+    margin-bottom: 10px;
+  }
+</style>
+
+</body>
+</html>

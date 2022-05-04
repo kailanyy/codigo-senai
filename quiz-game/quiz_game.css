@@ -1,0 +1,48 @@
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: black;
+  color:yellow;
+  padding: 10px;
+  background-image: url('https://img.wattpad.com/3277b4495a5f1b6e4ce54714afb375e6239e9cc0/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f706b77482d48336e6a4a43415f673d3d2d313034353034313131342e313636666237386561363531396163323336383237363830373839362e676966');
+  background-repeat:repeat;
+  background-size:20%;
+}
+header{
+  background-color: grey;
+  box-shadow: 2px 4px 4px 2px hotpink;
+  border: 2px solid grey;
+  border-radius: 90px 2px 90px 2px;
+  margin: 10px;
+  text-align: center;
+  letter-spacing: 4px;
+  background-image: url("https://i.pinimg.com/474x/98/e9/8c/98e98c2496be62efb9871d23df1e8c03.jpg");
+}
+
+
+.content{
+border: 4px solid hotpink;
+color: yellow;
+text-align: center;
+border-radius: 20px;
+width: 30%;
+align-content: center;
+background-color: grey;
+margin: auto;
+margin-top: 50px;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMWn6TeFkyQVei-cACOWmSu2PsdfIR79BJXjh7xAQcxZUtjPhzQdtA6-H3nfydgPbkuts&usqp=CAU");
+
+
+}
+
+input{
+  cursor: pointer;
+}
+
+p{
+  text-align: center;
+  white-space: pre-line;
+}
+
+img{
+  width: 50%;
+}

@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Segoe UI';
+}
+
+header{
+    color: darksalmon;
+}
+
+footer{
+    background-color: darksalmon;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+footer ul{
+    color:antiquewhite;
+}
+
+.container{
+    border: 2px solid darksalmon;
+    border-radius: 20px;
+    border-width: 4px 2px 4px 2px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 80%;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    width: 92%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+select{
+    font-family: 'Segoe UI';
+    text-align: center;
+    border: 1px solid darksalmon;
+    border-radius: 5px;
+    border-width: 2px;
+
+}
+
+@media screen and (max-width:600px){ 
+    .row{
+        display: block;
+    }
+}

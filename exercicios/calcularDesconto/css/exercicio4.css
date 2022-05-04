@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    letter-spacing: -3px;
+    background-color: rgb(183, 170, 255);
+    font-family: Andale Mono, monospace;
+    text-align: center;
+}
+
+header{
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+}
+header h1{
+    color: black;
+}
+
+.container{
+    background-color: rgb(173, 136, 247);
+    margin: auto;
+    width: 40%;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 8px;
+
+}
+
+.container input {
+    width: 75%;
+    margin: 8px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 23px;
+    outline: 10%;
+    outline-color: rgb(173, 136, 247);
+}
+
+.container input:focus{
+    border: 2px solid rgb(183, 170, 255);
+}
+
+.container button {
+    margin: 8px;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(183, 170, 255);
+    font-weight: bolder;    
+}
+
+.container button:hover{
+    background-color: rgb(173, 136, 247);
+    cursor: pointer;
+    border-color: rgb(183, 170, 255);
+    ;
+}
+
+@media screen and (max-width:600px){
+    .container {
+        width: 90%;
+    }
+}
